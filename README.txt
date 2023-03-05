@@ -32,4 +32,12 @@ Website to practice the Taiwan Medical License Exam
 
     > connect to the database 
         - set up json schema validation for question, exam, user interfaces
-        - 
+        
+
+03/05/2023
+    > set up collections config in database.ts
+    > test server connection to database 
+        * confirm that twmle database is created
+            + exams, questions, and users collections 
+    > Start setting up RESTful API for database:
+        - *Basic* GET, POST, PUT DELETE for each collection

@@ -5,7 +5,7 @@ export interface User{
     user: string;
     password: string; //encryption? oauth?
     name: string;
-    qlist: string; //list of questions asked
-    qwrong: string; //list of questions answered incorrectly
-    qflag: string; //list of questions flagged for further review
+    qlist: Array<string>; //list of questions asked
+    qwrong: Array<string>; //list of questions answered incorrectly
+    qflag: Array<string>; //list of questions flagged for further review
 }
